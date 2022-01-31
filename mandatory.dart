@@ -96,3 +96,6 @@ mijeong shootArrow() => 100;
 // typedef는 c에서 사용하던거 그대로
 // js에서 함수를 변수처럼 인자로 받거나 할 때 많이 사용하는 거 같다.
 typedef mijeong = int;
+
+// Idol 클래스를 private으로 지정하여 외부 파일에서 접근할 수 없도록 하기 위해서는
+// _Idol과 같이 _를 붙여주면 된다.
